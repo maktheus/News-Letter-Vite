@@ -2,20 +2,22 @@
 module.exports = {
   darkMode: 'class',
   content: [
-      "./index.html",
-      "./src/**/*.{js,jsx}",
+    "./index.html",
+    "./src/**/*.{js,jsx}",
   ],
   theme: {
-    colors: {
+    extend: {
+      colors: {
         dark: {
-            100: 'rgb(18, 18, 18)',
-            200: 'rgb(51, 51, 51)'
+          100: 'rgb(18, 18, 18)',
+          200: 'rgb(51, 51, 51)'
         },
         alura: {
-            100: '#167BF7',
-            200: '#051933'
+          100: '#167BF7',
+          200: '#051933'
         }
-    }
+      }
+    },
   },
   plugins: [],
 }
