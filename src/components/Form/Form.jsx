@@ -14,6 +14,7 @@ const Form = ({ onSubmit }) => {
         <input type="email" placeholder="Insira seu e-mail..." />
         <button type="submit">Seguir</button>
     </form>
+    //teste de commmit 
 }
 
 export default Form
