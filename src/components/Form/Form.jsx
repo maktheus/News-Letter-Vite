@@ -11,9 +11,9 @@ const Form = ({ onSubmit }) => {
 
   return (
     <form className="h-full w-full px-5 pt-52 flex flex-col items-center gap-10" onSubmit={safeSubmit}>
-      <Input type="text" placeholder="Informe seu nome" />
-      <Input type="email" placeholder="Informe seu e-mail" />
-      <button type="submit" className="bg-alura-100 px-5 py-2 text-gray-200 uppercase rounded-full hover:animate-pulse outline-none focus:shadow-md focus:shadow-gray-500">Confirmar</button>
+      <Input type="text" className="alura-input py-5"  placeholder="Informe seu nome" />
+      <Input type="email" className="alura-input"  placeholder="Informe seu e-mail" />
+      <button type="submit" className="alura-button" >Confirmar</button>
     </form>
   )
 }
